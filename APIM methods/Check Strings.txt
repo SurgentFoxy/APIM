@@ -1,0 +1,8 @@
+static bool check(string s1,string s2)
+        {
+            if (s1.ToLower() == s2.ToLower())
+            {
+                return true;
+            }
+            return false;
+        }
