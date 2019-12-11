@@ -7,3 +7,4 @@ C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Deb
 C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.exe
 C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.pdb
 C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.map1.resources
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.csprojResolveAssemblyReference.cache

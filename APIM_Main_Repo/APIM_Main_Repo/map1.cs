@@ -18,12 +18,11 @@ namespace APIM_Main_Repo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            sold.Show();
             available.Hide();
+            sold.Show();
         }
-
-        private void LoginButton_Click(object sender, EventArgs e)
-        {
+        private void Button2_Click(object sender, EventArgs e)
+        {            
             available.Show();
             sold.Hide();
         }

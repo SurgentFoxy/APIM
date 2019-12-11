@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.available = new System.Windows.Forms.GroupBox();
-            this.sold = new System.Windows.Forms.GroupBox();
             this.LoginButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.available.SuspendLayout();
+            this.available = new System.Windows.Forms.Panel();
+            this.sold = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -48,38 +47,6 @@
             this.label1.Text = "A.P.I.M.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // available
-            // 
-            this.available.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.available.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.available.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.available.Controls.Add(this.sold);
-            this.available.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.available.Location = new System.Drawing.Point(0, 46);
-            this.available.Name = "available";
-            this.available.Size = new System.Drawing.Size(318, 216);
-            this.available.TabIndex = 4;
-            this.available.TabStop = false;
-            this.available.Text = "Houses Available";
-            // 
-            // sold
-            // 
-            this.sold.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.sold.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.sold.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.sold.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sold.Location = new System.Drawing.Point(0, 0);
-            this.sold.Name = "sold";
-            this.sold.Size = new System.Drawing.Size(318, 216);
-            this.sold.TabIndex = 5;
-            this.sold.TabStop = false;
-            this.sold.Text = "Houses Sold";
-            this.sold.Visible = false;
-            // 
             // LoginButton
             // 
             this.LoginButton.Font = new System.Drawing.Font("Stencil", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -89,7 +56,7 @@
             this.LoginButton.TabIndex = 1;
             this.LoginButton.Text = "Houses Availble";
             this.LoginButton.UseVisualStyleBackColor = true;
-            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
+            this.LoginButton.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button1
             // 
@@ -102,19 +69,35 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // available
+            // 
+            this.available.BackColor = System.Drawing.Color.YellowGreen;
+            this.available.Location = new System.Drawing.Point(1, 58);
+            this.available.Name = "available";
+            this.available.Size = new System.Drawing.Size(318, 200);
+            this.available.TabIndex = 6;
+            // 
+            // sold
+            // 
+            this.sold.BackColor = System.Drawing.Color.OrangeRed;
+            this.sold.Location = new System.Drawing.Point(1, 58);
+            this.sold.Name = "sold";
+            this.sold.Size = new System.Drawing.Size(318, 200);
+            this.sold.TabIndex = 7;
+            // 
             // map1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSalmon;
             this.ClientSize = new System.Drawing.Size(318, 312);
+            this.Controls.Add(this.sold);
+            this.Controls.Add(this.available);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LoginButton);
-            this.Controls.Add(this.available);
             this.Controls.Add(this.label1);
             this.Name = "map1";
             this.Text = "map1";
-            this.available.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,9 +106,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox available;
         private System.Windows.Forms.Button LoginButton;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox sold;
+        private System.Windows.Forms.Panel available;
+        private System.Windows.Forms.Panel sold;
     }
 }
