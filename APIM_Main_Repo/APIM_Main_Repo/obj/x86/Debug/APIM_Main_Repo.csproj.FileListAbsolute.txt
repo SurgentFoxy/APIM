@@ -1,0 +1,9 @@
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\bin\Debug\APIM_Main_Repo.exe
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\bin\Debug\APIM_Main_Repo.pdb
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.ChooseMap.resources
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.LoginForm.resources
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.Properties.Resources.resources
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.csproj.GenerateResource.Cache
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.exe
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.pdb
+C:\Users\Foxy PC\Documents\GitHub\APIM\APIM_Main_Repo\APIM_Main_Repo\obj\x86\Debug\APIM_Main_Repo.map1.resources

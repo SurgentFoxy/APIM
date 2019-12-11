@@ -13,7 +13,15 @@ namespace APIM_Main_Repo//The main Program(Don't Apply Changes until it's 100 wo
     {
         public LoginForm()
         {
-            InitializeComponent();
+            InitializeComponent();            
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {            
+            ChooseMap c = new ChooseMap();
+            c.Activate();
+            c.Show();
+            this.Hide();
         }
     }
 }
